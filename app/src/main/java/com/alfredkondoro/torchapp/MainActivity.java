@@ -14,14 +14,16 @@ import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.Toast;
 
 @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
 public class MainActivity extends AppCompatActivity {
 
-    Button buttontaa;
+    ImageButton buttontaa;
     private static final int CAMERA_REQUEST = 123;
     boolean CameraFlash = false;
+    int FlashStatus = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,18 +37,19 @@ public class MainActivity extends AppCompatActivity {
         CameraFlash = getPackageManager ().
                 hasSystemFeature (PackageManager.FEATURE_CAMERA_FLASH);
 
-        buttontaa = findViewById (R.id.buttonOff);
+        buttontaa = findViewById (R.id.imageButtonOnOff);
 
         buttontaa.setOnClickListener (new View.OnClickListener () {
             @RequiresApi(api = Build.VERSION_CODES.M)
             @Override
             public void onClick(View view) {
                 if (CameraFlash) {
-                    if (buttontaa.getText ().toString ().contains ("ZIMA")) {
-                        buttontaa.setText ("  WASHA  ");
+                    if(FlashStatus == 1){
+                        FlashStatus = 0;
                         flashLightOff ();
-                    } else {
-                        buttontaa.setText ("  ZIMA  ");
+                    }
+                    else{
+                        FlashStatus = 1;
                         flashLightOn ();
                     }
                 } else {

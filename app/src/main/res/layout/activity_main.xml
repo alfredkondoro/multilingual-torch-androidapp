@@ -7,32 +7,6 @@
     android:background="@drawable/back"
     tools:context=".MainActivity">
 
-    <Button
-        android:id="@+id/buttonOff"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="15dp"
-        android:layout_marginBottom="16dp"
-        android:background="@drawable/washazima_round"
-        android:text="  WASHA/zima  "
-        android:textColor="#ffffff"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageViewOff"
-        app:layout_constraintVertical_bias="0.0" />
-
-    <ImageView
-        android:id="@+id/imageViewOff"
-        android:layout_width="160dp"
-        android:layout_height="91dp"
-        android:layout_marginTop="16dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView4"
-        app:srcCompat="@drawable/onoffbutton" />
-
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="152dp"
@@ -51,7 +25,7 @@
         android:layout_marginTop="280dp"
         android:text="BONYEZA KITUFE KUWASHA NA KUZIMA TAA"
         android:textColor="@color/colorPrimaryDark"
-        android:textSize="18sp"
+        android:textSize="15sp"
         android:textStyle="bold"
         app:fontFamily="@font/baloo_thambi"
         app:layout_constraintEnd_toEndOf="parent"
@@ -71,6 +45,20 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <ImageButton
+        android:id="@+id/imageButtonOnOff"
+        android:layout_width="145dp"
+        android:layout_height="145dp"
+        android:layout_marginTop="15dp"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/onoffbutton" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
