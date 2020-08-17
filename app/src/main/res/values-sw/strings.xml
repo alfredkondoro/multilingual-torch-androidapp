@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tochi</string>
+    <string name="image_desc">Ikoni ya programu</string>
+    <string name="app_name_capital">TOCHI</string>
+    <string name="image_desc_onoff">Ikoni ya Swichi</string>
+    <string name="no_flash">Tochi haijawezeshwa kwenye kifaa chako</string>
+    <string name="flash_switch">BONYEZA KITUFE KUWASHA AU KUZIMA</string>
+    <string name="lang_switch">Chagua lugha yako</string>
+    <string name="app_permission">Imekataliwa Ufikiaji wa Kamera</string>
+    <string name="torch_no_on">Haikuweza kuwasha kamera</string>
+    <string name="torch_no_off">Haikuweza kuzima kamera</string>
+</resources>

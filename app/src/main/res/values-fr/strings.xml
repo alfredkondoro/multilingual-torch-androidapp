@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Torche</string>
+    <string name="app_name_capital">TORCHE</string>
+    <string name="image_desc">App icône</string>
+    <string name="image_desc_onoff">commutateur icône</string>
+    <string name="no_flash">La torche n\'est pas activée sur votre appareil</string>
+    <string name="flash_switch">APPUYER SUR LE BOUTON POUR ALLUMER OU ÉTEINDRE</string>
+    <string name="lang_switch">Choisissez votre langue</string>
+    <string name="app_permission">Accès refusé à la caméra</string>
+    <string name="torch_no_on">Impossible d\'allumer l\'appareil photo</string>
+    <string name="torch_no_off">Impossible d\'éteindre l\'appareil photo</string>
+</resources>

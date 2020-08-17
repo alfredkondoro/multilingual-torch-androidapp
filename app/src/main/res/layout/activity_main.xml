@@ -7,11 +7,27 @@
     android:background="@drawable/back"
     tools:context=".MainActivity">
 
+    <ImageButton
+        android:id="@+id/imageButtonOnOff"
+        android:layout_width="198dp"
+        android:layout_height="195dp"
+        android:layout_marginTop="15dp"
+        android:background="@null"
+        android:contentDescription="@string/image_desc_onoff"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/onoffbutton" />
+
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="152dp"
         android:layout_height="106dp"
         android:layout_marginTop="72dp"
+        android:contentDescription="@string/image_desc"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
@@ -19,25 +35,10 @@
         app:srcCompat="@drawable/icon" />
 
     <TextView
-        android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="280dp"
-        android:text="BONYEZA KITUFE KUWASHA NA KUZIMA TAA"
-        android:textColor="@color/colorPrimaryDark"
-        android:textSize="15sp"
-        android:textStyle="bold"
-        app:fontFamily="@font/baloo_thambi"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.491"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
-
-    <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TAA"
+        android:text="@string/app_name_capital"
         android:textColor="@color/colorAccent"
         android:textSize="30sp"
         android:textStyle="bold"
@@ -46,19 +47,40 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
-    <ImageButton
-        android:id="@+id/imageButtonOnOff"
-        android:layout_width="145dp"
-        android:layout_height="145dp"
-        android:layout_marginTop="15dp"
-        android:background="@null"
-        android:scaleType="fitCenter"
-        app:layout_constraintBottom_toBottomOf="parent"
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="108dp"
+        android:text="@string/flash_switch"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        app:fontFamily="@font/baloo_thambi"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        android:gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/langbutton"
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:background="@drawable/washazima_round"
+        android:text="@string/lang_switch"
+        android:textColor="@color/colorWhite"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButtonOnOff"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/onoffbutton" />
+        android:gravity="center_horizontal" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

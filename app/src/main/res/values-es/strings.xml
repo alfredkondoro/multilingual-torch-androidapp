@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Antorcha</string>
+    <string name="app_name_capital">ANTORCHA</string>
+    <string name="image_desc">Ícone do aplicativo</string>
+    <string name="image_desc_onoff">Icono de cambio</string>
+    <string name="no_flash">La antorcha no está habilitada en su dispositivo</string>
+    <string name="flash_switch">PRESIONE EL BOTÓN PARA ENCENDER O APAGAR</string>
+    <string name="lang_switch">Elige tu idioma</string>
+    <string name="app_permission">Acesso negado à câmera</string>
+    <string name="torch_no_on">No se pudo encender la cámara</string>
+    <string name="torch_no_off">Não foi possível desligar a câmera</string>
+</resources>

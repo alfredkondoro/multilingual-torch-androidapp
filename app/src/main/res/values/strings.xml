@@ -1,3 +1,12 @@
 <resources>
-    <string name="app_name">Taa</string>
+    <string name="app_name">Torch</string>
+    <string name="app_name_capital">TORCH</string>
+    <string name="image_desc">App icon</string>
+    <string name="image_desc_onoff">Switch icon</string>
+    <string name="no_flash">Torch is not enabled in your device</string>
+    <string name="flash_switch">PRESS THE BUTTON TO TURN ON OR OFF</string>
+    <string name="app_permission">Denied Access to the Camera</string>
+    <string name="torch_no_on">Could not turn the camera on</string>
+    <string name="torch_no_off">Could not turn the camera off</string>
+    <string name="lang_switch">Choose your language</string>
 </resources>

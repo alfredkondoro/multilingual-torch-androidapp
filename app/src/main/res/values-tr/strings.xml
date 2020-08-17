@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Meşale</string>
+    <string name="app_name_capital">MEŞALE</string>
+    <string name="image_desc">Uygulama simgesi</string>
+    <string name="image_desc_onoff">Simge değiştir</string>
+    <string name="no_flash">Cihazınızda meşale etkin değil</string>
+    <string name="flash_switch">AÇMAK VEYA KAPATMAK İÇİN DÜĞMEYE BASIN</string>
+    <string name="lang_switch">Dilinizi seçin:</string>
+    <string name="app_permission">Kameraya Erişim Engellendi</string>
+    <string name="torch_no_on">Kamera açılamadı</string>
+    <string name="torch_no_off">Kamera kapatılamadı</string>
+</resources>

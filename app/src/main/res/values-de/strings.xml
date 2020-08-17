@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fackel</string>
+    <string name="app_name_capital">FACKEL</string>
+    <string name="image_desc">App-Symbol</string>
+    <string name="image_desc_onoff">Symbol wechseln</string>
+    <string name="no_flash">Die Taschenlampe ist in Ihrem Gerät nicht aktiviert</string>
+    <string name="flash_switch">DRÜCKEN SIE DIE TASTE, UM SIE EIN- ODER AUSZUSCHALTEN</string>
+    <string name="lang_switch">Wähle deine Sprache</string>
+    <string name="app_permission">Zugriff auf die Kamera verweigert</string>
+    <string name="torch_no_on">Die Kamera konnte nicht eingeschaltet werden</string>
+    <string name="torch_no_off">Die Kamera konnte nicht ausgeschaltet werden</string>
+</resources>

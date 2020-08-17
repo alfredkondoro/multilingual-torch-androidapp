@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tocha</string>
+    <string name="app_name_capital">TOCHA</string>
+    <string name="image_desc">Ícone do aplicativo</string>
+    <string name="image_desc_onoff">Ícone de troca</string>
+    <string name="no_flash">A tocha não está habilitada no seu dispositivo</string>
+    <string name="flash_switch">PRESSIONE O BOTÃO PARA LIGAR OU DESLIGAR</string>
+    <string name="lang_switch">Elige tu idioma</string>
+    <string name="app_permission">Acesso negado à câmera</string>
+    <string name="torch_no_on">Não foi possível ligar a câmera</string>
+    <string name="torch_no_off">Não foi possível desligar a câmera</string>
+</resources>
